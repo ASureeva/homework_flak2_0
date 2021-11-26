@@ -63,7 +63,7 @@ def handle(client, address):
             break
 
 
-def take():  # Подключение нескольких клиентов
+def take(): 
     while True:
         client, address = server.accept()
         print("Соединён с {}".format(str(address)))
